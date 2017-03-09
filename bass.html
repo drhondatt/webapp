@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<!--Nav Bar Menu-->
+<body style="background-color:#cce6ff;">
+<div class=" col-12 header">
+<nav class ="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<!--collapasable menu-->
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <!-- menu options-->
+      <a class="navbar-brand" href="#">Let's Play</a>
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+	   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PAN<span class="caret"></span></a>
+       <!--dropdown menu-->
+	   <ul class="dropdown-menu">
+	      <li><a href="tenor.html">TENOR</a></li>
+          <li><a href="bass.html">SIX BASS</a></li>
+         </ul>
+       </ul>
+	   <!--page name
+	  <ul class="bass">
+	      <li><a href="bass.html">SIX BASS</a></li>
+         </ul>-->
+       
+	   <!--nav bar symbol-->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+    </ul>
+	</div>
+  </div>
+</nav>
+  	</a> 
+</div>
+ 
+ <div class="col-3 SIDEBAR">
+   <div id="col-3 pic1">
+      <img src="pics/bass3.jpg" width="80%"> 
+	   <img src="pics/bass5.jpg" width="80%">
+	   <img src="pics/bass4.jpg" width="80%">
+	  </div>
+    </div>
+	
+ <div class="col-9 animation ">
+  
+   <div id="image" style="margin:auto;">
+      <center><img src="pics/bass2.jpg" width=" 40%" height="250px"><center>
+     </div>
+   
+   </div>  
+
+  <!-- Notes -->
+  <div class = "col-9 notes">
+  
+    <!-- load audio for pan tones-->
+	   <audio id="C" src="6Bass/1 1.mp3" preload="auto"></audio>
+	   <audio id="D" src="6Bass/2 1.mp3" preload="auto"></audio>
+	   <audio id="E" src="6bass/3 1.mp3" preload="auto"></audio>
+	   <audio id="F" src="6bass/4 1.mp3" preload="auto"></audio>
+	   <audio id="G" src="6bass/5 1.mp3" preload="auto"></audio>
+	   <audio id="A" src="6bass/6 1.mp3" preload="auto"></audio>
+	   <audio id="B" src="6bass/7 1.mp3" preload="auto"></audio>
+	   
+	  
+	   
+	   <!--Load button-->
+          <button type="button" onclick="document.getElementById('C').play();">C</button>
+		  <button type="button" onclick="document.getElementById('D').play();">D</button>
+		  <button type="button" onclick="document.getElementById('E').play();">E</button>
+		  <button type="button" onclick="document.getElementById('F').play();">F</button>
+		  <button type="button" onclick="document.getElementById('G').play();">G</button>
+		  <button type="button" onclick="document.getElementById('A').play();">A</button>
+		  <button type="button" onclick="document.getElementById('B').play();">B</button>
+		  
+		             	
+ </div>  
+ 
+  
+
+
+
+
+</body>
+</html>
