@@ -8,11 +8,9 @@
 }
 [class*="col-"] {
     float: left;
-	height: 20%;
-    padding: 15px;
+	padding: 30px;
     border: 1px solid black;
 }
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -43,7 +41,7 @@ li a{
 	padding:14px 16px;
 	text-decoration: none;
 }
-.content{
+.container{
 	height:100%;
 }
 .narration{
@@ -55,22 +53,30 @@ li a{
 	text-align:center;
 }
 .animation{
-	height:70%;
-	
+	height:90%;
+	float: right;
 }
 .sidebar{
 	height:90%;
+	padding:10px;
+	margin:auto;
 }
 #pic1{
 	height:40%;
-	margin:5px;
+	margin:0px;
 }
 #pic2{
-	height:60%;
-	margin:5px;
+	height:40%;
+	margin:auto;
+	}
+.notes{
+	float:right;
+	
 }
-//.carousel-inner > .item > img,
+	
+}	
+.carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 30%;
-      margin:15px;
+      width: 70%;
+      margin:auto;
   }
