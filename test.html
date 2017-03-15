@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel= "stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 
+ </head>
+
+<body>
+ <div style="text-align:center">
+ <button onclick="playPause()">Play/Pause</button>
+ 
+<video id="video1" width="400" height="400" >
+  <source src="video/ta.mp4" type="video/mp4">
+  <!--<source src="tenor_a.ogg" type="video/ogg"><-->
+  Your browser does not support the video tag.
+</video>
+</div>
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+}
+</script> 
+</body
+</html>
